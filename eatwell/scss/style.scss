@@ -297,6 +297,9 @@ h1, h2, h3, h4, h5,
 		.site-thumbnail {
 			display: block;
 			margin-bottom: 5px;
+			width: 30%;
+   			 float: left;
+   			 margin: 1.66%;
 		}
 	}
 }
@@ -852,3 +855,5 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+
