@@ -7,7 +7,7 @@ body {
   background: #fff;
   font-size: 16px;
   line-height: 1.6;
-  color: #b8b8b8;
+  color: black;
 }
 
 a {
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5,
 }
 
 .bg-light {
-  background: #darken fafafa, 4% !important;
+  background: darken #fafafa, 4% !important;
 }
 
 .site-custom-gutters {
@@ -501,35 +501,50 @@ textarea.form-control {
   color: #d4d4d4;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
+  
 }
+
+
 
 .site-section .site-primary-title {
   margin-top: 0;
   margin-bottom: 30px;
 }
 
-#section-about {
+#about {
   padding: 8em 0;
+  background: 	#FAEBD7;
+}
+.servicios
+{
+  background-image: url("images/foto_2.jpg");
 }
 
-#section-about .img {
+#about .img {
   position: relative;
   right: 0;
 }
 
+#section-gallery
+{
+  background: #FAEBD7;
+}
+
 @media screen and (max-width: 768px) {
-  #section-about .img {
+  #about .img {
     position: relative;
     right: inherit;
   }
-  #section-about .img img {
+  #about .img img {
     max-width: 100%;
   }
 }
 
-#section-offer {
+#offer{
   padding: 12em 0;
+  
 }
+
 
 .site-section {
   padding: 7em 0;
