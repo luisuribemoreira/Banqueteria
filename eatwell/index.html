@@ -354,35 +354,35 @@
             <form action="mail.php" method="post">
               <div class="form-group">
                 <label for="name" class="sr-only">Nombre</label>
-                <input type="text" class="form-control" id="name" placeholder="Nombre">
+                <input type="text" class="form-control" id="name"  name="nombre" placeholder="Nombre"  required>
               </div>
               <div class="form-group">
                 <label for="email" class="sr-only">Correo Electrónico</label>
-                <input type="text" class="form-control" id="email" placeholder="Correo Electrónico">
+                <input type="text" class="form-control" id="email"  name="mail" placeholder="Correo Electrónico" required>
               </div>
               <div class="form-group">
                 <label for="asunto" class="sr-only">Asunto</label>
-                <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+                <input type="text" class="form-control" id="asunto"  name="asunto" placeholder="Asunto" required>
               </div>
               <div class="form-group">
                 <label for="telefono" class="sr-only">Teléfono</label>
-                <input type="text" class="form-control" id="tel" placeholder="Teléfono">
+                <input type="text" class="form-control" id="tel"  name="fono" placeholder="Teléfono" required>
               </div>
               <div class="form-group">
                 <label for="tipoE" class="sr-only">Tipo Evento</label>
-                <input type="text" class="form-control" id="evento" placeholder="Tipo Evento">
+                <input type="text" class="form-control" id="evento"  name="tipoE" placeholder="Tipo Evento" required>
               </div>
               <div class="form-group">
                 <label for="Fecha Tentativa" class="sr-only">Fecha Tentativa</label>
-                <input type="date" class="form-control" id="fech" placeholder="Fecha Tentativa">
+                <input type="date" class="form-control" id="fech"  name="fecha" placeholder="Fecha Tentativa" required>
               </div>
               <div class="form-group">
                 <label for="cantInv" class="sr-only">CantidadInv</label>
-                <input type="text" class="form-control"  id="cant" name="cant" placeholder="Cantidad de Invitados">
+                <input type="text" class="form-control"  id="cant" name="cant" placeholder="Cantidad de Invitados" required>
               </div>
               <div class="form-group">
                 <label for="message" class="sr-only">Mensaje</label>
-                <textarea name="mensaje" id="message" cols="30" rows="10" class="form-control" placeholder="Escribe tu mensaje"></textarea>
+                <textarea name="mensaje" id="message" cols="30" rows="10" class="form-control" placeholder="Escribe tu mensaje" required></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" class="btn btn-primary btn-lg" value="Enviar Mensaje">
