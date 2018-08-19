@@ -12,11 +12,12 @@ $mail = "Nombre: ".$nombre .". Fono: ". $fono . ". Tipo de Evento: ".$tipoE . ".
 if(mail('luisuribemoreira@gmail.com',$asunto,$mail))
 {
     echo '<script language="javascript">alert("Correo enviado correctamente");</script>'; 
+    header("http://altusbanqueteria.cl/");
   
 }else
 {
     echo '<script language="javascript">alert("El correo no se pudo enviar");</script>'; 
-   
+    header("http://altusbanqueteria.cl/");
 }
 
 ?>
